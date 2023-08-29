@@ -38,5 +38,5 @@ jobs:
             --source-bundle S3Bucket="elasticbeanstalk-ap-southeast-2-740535869144",S3Key="deploy_package.zip"
 
           aws elasticbeanstalk update-environment \
-            --environment-name Sample-docker-react-env \
+            --environment-name Sample-devops-docker-react-env \
             --version-label ${{ github.sha }}
